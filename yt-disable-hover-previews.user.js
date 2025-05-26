@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Disable YouTube Hover Previews (Enhanced)
 // @namespace    http://tampermonkey.net/
-// @version      3.1.0
+// @version      3.1.1
 // @description  Completely disables video previews with improved performance, reliability, and configurability
 // @author       RM
 // @homepageURL  https://github.com/ODRise/YTDH
 // @match        *://*.youtube.com/*/*
-// @exclude      *://*.music.https://www.youtube.com/*\n//
-// @exclude      *://*.studio.https://m.youtube.com/*\n//
+// @exclude      *://music.music.youtube.com/*/1/*
+// @exclude      *://studio.music.youtube.com/*/2/*
 // @grant        GM_addStyle
 // @grant        GM.getValue
 // @grant        GM.setValue
